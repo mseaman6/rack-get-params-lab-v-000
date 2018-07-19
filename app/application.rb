@@ -17,7 +17,7 @@ class Application
           resp.write "#{cart_item}\n"
         end
       else
-        resp.write "The cart is empty."
+        resp.write "Your cart is empty"
       end
     #elsif req.path.match(/add/)
 
